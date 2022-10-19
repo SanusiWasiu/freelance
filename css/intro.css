@@ -1,0 +1,37 @@
+.body-intro {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-header {
+    width: 555px;
+    height: 270px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.intro-mark {
+    position: relative;
+    background: #4535AF;
+    border-radius: 10px;
+    transform: rotate(-15deg);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.intro-mark img {
+    /* border: 2px solid #FFFFFF; */
+    position: absolute;
+    width: 12px;
+    height: 8px;
+    align-self: center;
+    left: 35%;
+    top: 40%;
+}
