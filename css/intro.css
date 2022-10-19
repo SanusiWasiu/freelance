@@ -2,8 +2,9 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
-
 .intro-header {
     width: 555px;
     height: 270px;
@@ -13,7 +14,51 @@
     font-size: 80px;
     line-height: 90px;
 }
-
+.intro-underline {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.body-intro p {
+    width: 461px;
+    height: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+.intro-btn{
+    margin-top: 50px;
+}
+button {
+    border-radius: 40px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 10px;
+    width: 158px;
+    height: 62px;
+}
+.btn-1 {
+    background: #54BD95;
+    border: #54BD95;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 42px;
+}
+.btn-2 {
+    background: #D7D7D7;
+    border: #D7D7D7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
 .intro-mark {
     position: relative;
     background: #4535AF;
@@ -24,6 +69,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 15rem;
+    margin-right: -3rem;
 }
 
 .intro-mark img {

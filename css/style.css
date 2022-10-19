@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
-section{
-    padding: 9rem;
+body {
+    background: rgb(226, 231, 230);
+    /* filter: blur(500px); */
+    background-image: linear-gradient(to bottom right, rgb(196, 230, 223), rgb(226, 231, 230), rgb(226, 231, 230), rgb(226, 231, 230), rgb(196, 230, 223));
+}
+nav, .body-intro, .client {
+    padding-left: 9rem;
     padding-right: 12rem;
 }

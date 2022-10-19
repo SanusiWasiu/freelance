@@ -1,0 +1,9 @@
+.client {
+    /* width: 1442px; */
+    height: 246px;
+    background: #EDEDED;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 53px;
+}
