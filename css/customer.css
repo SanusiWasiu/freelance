@@ -1,0 +1,17 @@
+.customer {
+    background: #EDEDED;
+    height: 821px;
+}
+
+.customer-head {
+    width: 517px;
+    height: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #0B1024;
+}
