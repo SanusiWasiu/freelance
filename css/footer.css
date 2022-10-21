@@ -1,0 +1,26 @@
+footer {
+    height: 130px;
+    background: #222938;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-left: 6rem;
+    padding-right: 3rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+footer div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20rem;
+}
+
+footer a {
+    margin: 2rem;
+}

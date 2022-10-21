@@ -92,3 +92,7 @@
 .arrow div:first-child {
     margin-right: 14px;
 }
+
+.arrow div {
+    cursor: pointer;
+}
