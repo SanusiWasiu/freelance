@@ -7,7 +7,7 @@
 .customer-head {
     /* width: 517px;
     height: 50px; */
-    font-family: 'Manrope';
+    font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
@@ -48,7 +48,7 @@
     margin-left: 50px;
 }
 .top h3 {
-    font-family: 'Manrope';
+    font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -58,7 +58,7 @@
     text-align: center;
 }
 .top h4{
-    font-family: 'Manrope';
+    font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -71,7 +71,7 @@
 .base {
     margin-top: 28px;
     text-align: center;
-    font-family: 'Manrope';
+    font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

@@ -8,7 +8,7 @@
 .intro-header {
     width: 555px;
     height: 270px;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
@@ -21,7 +21,7 @@
 .body-intro p {
     width: 461px;
     height: 90px;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -45,7 +45,7 @@ button {
     background: #54BD95;
     border: #54BD95;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -54,7 +54,7 @@ button {
 .btn-2 {
     background: #D7D7D7;
     border: #D7D7D7;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
