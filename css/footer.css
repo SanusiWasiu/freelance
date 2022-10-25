@@ -10,7 +10,7 @@ footer {
     font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 130%;
 }
 
@@ -18,7 +18,7 @@ footer div:nth-child(2) {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20rem;
+    margin-left: 10rem;
 }
 
 footer a {

@@ -11,8 +11,8 @@
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
-    line-height: 90px;
+    font-size: 60px;
+    /* line-height: 90px; */
 }
 .intro-underline {
     margin-top: 30px;
@@ -20,7 +20,7 @@
 }
 .body-intro p {
     width: 461px;
-    height: 90px;
+    /* height: 90px; */
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 500;
@@ -80,4 +80,10 @@ button {
     align-self: center;
     left: 35%;
     top: 40%;
+}
+
+.himani img {
+    width: 410px;
+    height: 526px;
+    border-radius: 10px;
 }

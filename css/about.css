@@ -8,15 +8,15 @@
 }
 
 .about-img {
-    margin-left: 155px;
+    margin-left: 120px;
 }
 
 .about-details h1 {
-    margin-bottom: 69px;
+    margin-bottom: 40px;
     font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 38px;
+    font-size: 35px;
     /* line-height: 48px; */
     /* width: 538px; */
     /* height: 93px; */
@@ -28,21 +28,24 @@
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
+    line-height: 25px;
 }
 
-.about-details li:first-child {
+
+/* .about-details li:first-child {
     margin-bottom: 69px;
     width: 425px;
     height: 128px;
     line-height: 32px;
-}
-.about-details li:last-child {
+} */
+
+/* .about-details li:last-child {
     width: 425px;
     height: 160px;
     line-height: 32px;
-}
+} */
 .about-details button {
-    margin-top: 65px;
+    margin-top: 30px;
     background: #FFFFFF;
     border: #FFFFFF;
     color: #54BD95;
