@@ -69,15 +69,15 @@
     color: #9598A0;
 }
 .base {
-    margin-top: 28px;
+    margin-top: 10px;
     text-align: center;
     font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 170%;
-    width: 670px;
-    height: 54px;
+    /* line-height: 170%; */
+    /* width: 670px; */
+    /* height: 54px; */
 }
 
 .arrow {
@@ -86,7 +86,7 @@
     justify-content: center;
     align-items:center;
     top: 730px;
-    margin-left: 580px;
+    margin-left: 500px;
 }
 
 .arrow div:first-child {
@@ -95,4 +95,17 @@
 
 .arrow div {
     cursor: pointer;
+}
+
+.customer-profile {
+    position: absolute;
+    width: 864px;
+    height: 460px;
+    left: 250px;
+    top: 191px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(46, 33, 61, 0.08);
+    border-radius: 10px;
+    padding: 4rem;
+    display: none;
 }
