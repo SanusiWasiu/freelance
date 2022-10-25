@@ -7,7 +7,7 @@
 }
 .intro-header {
     width: 555px;
-    height: 270px;
+    /* height: 270px; */
     font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 700;
