@@ -3,18 +3,18 @@
 }
 /* .nav{
 } */
-.nav-logo {
+.nav-logo img {
     /* position: relative; */
-    width: 121px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
     /* left: 72px;
     top: 40px; */
-    font-family: 'Inter', serif;
+    /* font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 800px;
     font-size: 50px;
     line-height: 30px;
-    color: #54BD95;
+    color: #54BD95; */
 }
 
 a {

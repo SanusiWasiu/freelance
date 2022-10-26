@@ -7,3 +7,13 @@
     text-align: center;
     padding-top: 53px;
 }
+
+.client-logo {
+    display: flex;
+}
+
+.client-logo img {
+    width: 161px;
+    height: 36px;
+    margin: 2rem;
+}

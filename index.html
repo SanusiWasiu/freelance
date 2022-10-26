@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     </head>
 
     <body>
@@ -16,18 +15,13 @@
             <nav class="navbar navbar-expand-lg ">
                 <div class="container">
                     <div class="nav-logo">
-                        <a><h1>Logo</h1></a>
+                        <a><img src="./images/main-logo.jpg"></a>
                     </div>
                     
                     <div class="nav-options">
-                        <a href="javascript:void(0);">Services</a>
-                        <a href="javascript:void(0);">About Me</a>
-                        <a href="javascript:void(0);">FAQ</a>
-                    </div>
-
-                    <div class="nav-login">
-                        <a href="javascript:void(0);">Login</a>
-                        <a href="javascript:void(0);" class="signup-btn">Sign up</a>
+                        <!-- <a href="javascript:void(0);">Services</a> -->
+                        <a onclick="scrollFunction1()">About Me</a>
+                        <a onclick="scrollFunction2()">Testimonials</a>
                     </div>
                 </div>
             </nav>
@@ -67,12 +61,16 @@
                     <h1>Organizations worked with</h1>
                 </div>
                 <div class="client-logo">
-                    <img src="./images/client_logo.png">
+                    <img src="./images/googleclassroom.jpg">
+                    <img src="./images/blackboard.jpg">
+                    <img src="./images/sakai.jpg">
+                    <img src="./images/lms.jpg">
+                    <img src="./images/moodle.jpg">
                 </div>
             </div>
 
             <!-- About ME starts here -->
-            <div class="about">
+            <div class="about" id="about-me">
                 <div class="about-details">
                     <h1>About Me</h1>
                     <ul>
@@ -86,21 +84,8 @@
                             Himani believes mindfulness in the workplace is key to success - a tenet she lives out through her interests in IELTS, PTE, ESL training, as well as digital marketing. Himani is currently working as a freelance tutor and is always interested in a challenge. 
                         </li>
                         <li>
-                            Services of tutoring include:
-                            <ul>
-                                <li>
-                                    IELTS training [includes professional material] 
-                                </li>
-                                <li>
-                                    PTE training [includes professional material] 
-                                </li>
-                                <li>
-                                    ESL training [includes professional material] 
-                                </li>
-                                <li>
-                                    Math training [includes professional material]
-                                </li>
-                            </ul>
+                            Services of tutoring include: IELTS training [includes professional material], 
+                            PTE training [includes professional material], ESL training [includes professional material], Math training [includes professional material]
                         </li>
                     </ul>
                     <button class="btn-3">Learn More</button>
@@ -112,26 +97,10 @@
             <!-- About ME ends here -->
 
             <!-- What our customer say starts here -->
-            <div class="customer">
+            <div class="customer" id="reviews">
                 <div class="customer-head">What our <span>Students</span> say</div>
                     <div class="my-slider" id="container">
                         <div class="customer-slider">
-                            <!-- <div class="customer-profile">
-                                <div class="top">
-                                    <div class="one">
-                                        <img src="./images/01.png">
-                                    </div>
-                                    <div>
-                                        <img src="./images/passport.png">
-                                        <h3>Henry Brown</h3>
-                                        <h4>Digital Marketing Manager Rewind</h4>
-                                    </div>
-                                </div>
-                                <div class="base">
-                                    “Clearbit's Weekly Visitor Report helps me identify high-priority companies for my Sales team to follow up with, for free.”
-                                </div>
-                            </div> -->
-
                             <div class="customer-profile">
                                 <div class="top">
                                     <div class="one">
@@ -238,7 +207,7 @@
                 <div>
                     <img src="./images/laptop.png">
                 </div>
-                <form class="form-body">
+                <form class="form-body" action="mailto:hagrawal9028@gmail.com" method="get" enctype="text/plain">
                     <div>
                         <h3>Get Started</h3>
                     </div>
@@ -262,15 +231,15 @@
                 <p>© 2022 Himani Agrawal</p>
             </div>
             <div>
-                <a>Paypal - hagrawal9029@gmail.com</a>
-                <a>Googlepay/Phonepe/UPI ID - hagrawal9029@okicici</a>
-                <a>Phone Number - +918879894942</a>
+                <p>Donate</p>
+                <a href="hagrawal9029@gmail.com"><img src="./images/paypal.jfif" style="height: 3rem; width: 3rem"></a>
+                <a href="hagrawal9029@okicici"><img src="./images/gpay.jpg" style="height: 3rem; width: 3rem"></a>
+                <!-- <a>Phone Number - +918879894942</a> -->
             </div>
         </footer>
         <!-- footer ends here -->
 
         <!-- js links -->
         <script src="./js/index.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     </body>
 </html>
