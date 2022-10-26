@@ -3,7 +3,7 @@
     height: 806px;
     justify-content: space-between;
     background: #54BD95;
-    padding-top: 88px;
+    padding-top: 80px;
     padding-bottom: 113px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .about-details h1 {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 500;
@@ -22,11 +22,11 @@
     /* height: 93px; */
 }
 
-.about-details li {
+.about-details li, .about-details p {
     font-family: 'Manrope' serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     color: #FFFFFF;
     line-height: 25px;
 }
