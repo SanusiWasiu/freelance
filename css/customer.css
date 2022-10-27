@@ -125,7 +125,7 @@
     .customer-profile {
         position: absolute;
         width: 330px;
-        height: 260px;
+        height: 300px;
         left: 20px;
         top: 90px;
         background: #FFFFFF;
@@ -184,7 +184,7 @@
         display: flex;
         justify-content: center;
         align-items:center;
-        top: 380px;
+        top: 410px;
         margin-left: 100px;
     }
     
