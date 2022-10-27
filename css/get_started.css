@@ -3,6 +3,7 @@
     background: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 
 .get-started img {
@@ -77,7 +78,7 @@ input[type=email], textarea {
     margin: 20px 0px;
   }
 
-  .form-base {
+  /* .form-base {
     text-align: end;
     font-family: 'Inter' serif;
     font-style: normal;
@@ -91,4 +92,67 @@ input[type=email], textarea {
 
   .form-base span {
     color: #A6A6A6;
+  } */
+
+@media screen and (max-width: 700px) {
+  .get-started {
+    height: 630px;
   }
+  .get-started img {
+    display: none;
+  }
+
+  .form-body {
+    position: absolute;
+    width: 310px;
+    height: 450px;
+    background: #222938;
+    border-radius: 20px;
+    left: 25px;
+    top: 2150px;
+  }
+
+  .form-fields {
+    padding-left: 1rem;
+  }
+  .form-body div:first-child {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 36px;
+      color: #FFFFFF;
+  }
+
+  input[type=email], textarea {
+    width: 280px;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  input[type=submit] {
+    width: 280px;
+    height: 40px;
+    background: #54BD95;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

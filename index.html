@@ -8,31 +8,41 @@
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container">
+        <header style="width: 100%;">
+            <div class="navbar navbar-expand-lg">
+                <div class="container" id="myTopnav">
                     <div class="nav-logo">
                         <a><img src="./images/main-logo.jpg"></a>
                     </div>
                     
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    
                     <div class="nav-options">
-                        <!-- <a href="javascript:void(0);">Services</a> -->
-                        <a onclick="scrollFunction1()">About Me</a>
-                        <a onclick="scrollFunction2()">Testimonials</a>
+                            <a onclick="scrollFunction1()">About Me</a>
+                            <a onclick="scrollFunction2()">Testimonials</a>
                     </div>
                 </div>
-            </nav>
+            </div>
         </header>
-        <main>
+        <main style="width: 100%;">
             <!-- body introductin starts here -->
             <div class="body-intro">
                 <div class="intro-left">
-                    <div class="intro-header">
-                        Himani Agrawal SmartEducator.com
+                    <div class="mobile">
+                        <div class="intro-header">
+                            Himani Agrawal SmartEducator.com
+                        </div>
+                        <div class="himani-mobile">
+                            <img src="./images/argawal.png">
+                        </div>
                     </div>
+                    
                     <div class="intro-underline">
                         <img src="./images/underline.png">
                     </div>
@@ -110,7 +120,7 @@
                                         <img src="./images/01.png">
                                     </div>
                                     <div>
-                                        <img src="./images/deepka.png" style="width:106px; height:106px; border-radius: 50%;">
+                                        <img src="./images/deepka.png" class="customer-img">
                                         <h3>Draksha Tripathi</h3>
                                         <h4>Student</h4>
                                     </div>
@@ -129,7 +139,7 @@
                                         <img src="./images/01.png">
                                     </div>
                                     <div>
-                                        <img src="./images/vid.png" style="width:106px; height:106px; border-radius: 50%;">
+                                        <img src="./images/vid.png" class="customer-img">
                                         <h3>Vaishnavi Pandey</h3>
                                         <h4>Student</h4>
                                     </div>
@@ -146,7 +156,7 @@
                                         <img src="./images/01.png">
                                     </div>
                                     <div>
-                                        <img src="./images/antima.png" style="width:106px; height:106px; border-radius: 50%;">
+                                        <img src="./images/antima.png" class="customer-img">
                                         <h3>Antima Mishra</h3>
                                         <h4>Student</h4>
                                     </div>
@@ -163,7 +173,7 @@
                                         <img src="./images/01.png">
                                     </div>
                                     <div>
-                                        <img src="./images/preksha.png" style="width:106px; height:106px; border-radius: 50%;">
+                                        <img src="./images/preksha.png" class="customer-img">
                                         <h3>Preksa Tripathi</h3>
                                         <h4>Student</h4>
                                     </div>
@@ -180,7 +190,7 @@
                                         <img src="./images/01.png">
                                     </div>
                                     <div>
-                                        <img src="./images/vanshika.png" style="width:106px; height:106px; border-radius: 50%;">
+                                        <img src="./images/vanshika.png" class="customer-img">
                                         <h3>Vanshika Sen</h3>
                                         <h4>Student</h4>
                                     </div>
@@ -235,8 +245,8 @@
             </div>
             <div>
                 <p>Donate</p>
-                <a href="hagrawal9029@gmail.com"><img src="./images/paypal.jfif" style="height: 3rem; width: 3rem"></a>
-                <a href="hagrawal9029@okicici"><img src="./images/gpay.jpg" style="height: 3rem; width: 3rem"></a>
+                <a href="hagrawal9029@gmail.com"><img src="./images/paypal.jfif"></a>
+                <a href="hagrawal9029@okicici"><img src="./images/gpay.jpg"></a>
                 <!-- <a>Phone Number - +918879894942</a> -->
             </div>
         </footer>

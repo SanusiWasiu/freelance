@@ -22,6 +22,15 @@ function showDivs(n) {
     x[slideIndex-1].style.display = "block";  
 }
 
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "container") {
+      x.className += "-responsive";
+    } else {
+      x.className = "container";
+    }
+}
+
 function scrollFunction1() {
     let e = document.getElementById("about-me");
     e.scrollIntoView({

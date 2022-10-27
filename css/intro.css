@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    /* flex-wrap: wrap; */
 }
 .intro-header {
     width: 555px;
@@ -86,4 +87,71 @@ button {
     width: 410px;
     height: 526px;
     border-radius: 10px;
+}
+
+.himani-mobile img {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .body-intro {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: block;
+    }
+
+    .mobile{
+        display: flex;
+        justify-content: space-between;
+    }
+    .intro-header {
+        width: 10rem;
+        font-weight: 200;
+        font-size: 20px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .intro-mark {
+        display: none;
+    }
+    .himani img {
+        display: none;
+    }
+    .himani-mobile img {
+        display: flex;
+        width: 6rem;
+        height: 8rem;
+        border-radius: 10px;
+    }
+    .intro-underline {
+        display: none;
+    }
+    .body-intro p {
+        width: 20rem;
+        /* height: 90px; */
+        font-family: 'Inter', serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 0.9rem;
+        line-height: 30px;
+    }
+    .intro-btn{
+        margin-top: 20px;
+    }
+    button {
+        border-radius: 30px;
+        /* display: flex; */
+        /* flex-direction: row; */
+        justify-content: center;
+        align-items: center;
+        padding: 8px 15px;
+        gap: 10px;
+        width: 100px;
+        height: 50px;
+    }
+    .btn-1 {
+        font-weight: 500;
+        font-size: 12px;
+        margin-right: 42px;
+    }
 }

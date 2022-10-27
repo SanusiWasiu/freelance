@@ -10,10 +10,36 @@
 
 .client-logo {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .client-logo img {
     width: 161px;
     height: 36px;
     margin: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .client {
+        height: 260px;
+        background: #EDEDED;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .client h1 {
+        font-size: 1.5rem;
+    }
+    .client-logo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .client-logo img {
+        width: 100px;
+        height: 30px;
+        margin: 0.9rem;
+    }
 }
